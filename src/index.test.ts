@@ -1,5 +1,7 @@
+import {testFunc} from './index';
+
 describe('A passing test', () => {
-    test('True to be True', () => {
-        expect(true).toBe(true)
+    test('5 to be 5', () => {
+        expect(testFunc(5)).toBe(5)
     })
 })
